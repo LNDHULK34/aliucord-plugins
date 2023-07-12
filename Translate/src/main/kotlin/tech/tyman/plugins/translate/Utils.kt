@@ -165,7 +165,10 @@ val languageCodes = mapOf(
     "Xhosa" to "xh",
     "Yiddish" to "yi",
     "Yoruba" to "yo",
-    "Zulu" to "zu"
+    "Zulu" to "zu",
+     "Central Kurdish" to "ckb",
+    // Add Kurdish (Sorani) language
+    "Kurdish (Sorani)" to "ckb",
 )
 
 val languageCodeChoices = languageCodes.map {CommandChoice(it.key, it.value)}
